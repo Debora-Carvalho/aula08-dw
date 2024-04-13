@@ -1,0 +1,33 @@
+/*Meu CSS-Desenvolvendo em 13 de abril de 2024*/
+:root{
+    --tamanho:70px;
+}
+p{
+    color:black;
+    font-size: 40px;
+}
+
+h1{
+    color:white;
+    background-color:darkslateblue;
+    font-size: var(--tamanho);
+}
+
+div{
+    width: 500x;
+    height: 200px;
+    background-color:aqua;
+    font-size: 18px;
+    margin-top: 150px;
+    border: 2mm solid;
+}
+/*Devo referenciar as divs 3 e 4 no arquivo html correspondente, utilizando a id*/
+#div3{
+    width: 50%;
+    background-color: brown;
+}
+
+#div4{
+    width: 50%;
+    background-color: brown;
+}
